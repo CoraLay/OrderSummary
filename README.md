@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [coralay.github.io/FrontEndMentor1/](https://coralay.github.io/FrontEndMentor1/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: coralay.github.io/FrontEndMentor1](https://coralay.github.io/FrontEndMentor1/)
 
 
 ### Built with
