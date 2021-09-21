@@ -32,8 +32,6 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  box-shadow: 15px 15px 20px var(--dark-blue);
-
 }
 
 .card-g {
@@ -42,6 +40,7 @@ body {
   height: 700px;
   border-radius: var(--radius);
   text-align: center;
+  box-shadow: 15px 15px 20px rgba(55, 58, 228, 0.116);
 }
 
 .card-g img {
@@ -73,7 +72,7 @@ body {
   width: 80%;
   margin: auto;
   border-radius: var(--radius2);
-  padding: 0.6em;
+  padding: 0.4em;
 }
 
 .plan p:first-of-type {
@@ -100,6 +99,7 @@ body {
 .plan a {
   font-weight: 700;
   line-height: 50px;
+  color: rgb(2, 113, 216);
 }
 
 .plan a:hover {
@@ -116,13 +116,14 @@ button {
   font-weight: 700;
   border-radius: var(--radius2);
   width: 80%;
-  height: 3.5em;
+  height: 4em;
   font-size: 1em;
 }
 
 #ok {
   background-color: var(--bright-blue);
   color: white;
+  box-shadow: 2px 15px 17px rgba(79, 116, 194, 0.349);
 }
 
 #ok:hover {
