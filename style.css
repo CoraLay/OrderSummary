@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  --red-hat: 'Red Hat Display';
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --radius: calc(20px);
+  --radius2: calc(10px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--red-hat);
+  background-color: var(--pale-blue);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 15px 15px 20px var(--dark-blue);
+
+}
+
+.card-g {
+  background-color: white;
+  max-width: 450px;
+  height: 700px;
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.card-g img {
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.card-g h1 {
+  font-weight: 900;
+  color: var(--dark-blue);
+  font-size: 1.8em;
+  margin: 1.5em 0 0.6em 0;
+}
+
+.card-p {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.card-p h2 {
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--desaturated-blue);
+  margin-bottom: 2.5em;
+}
+
+.plan {
+  background-color: var(--very-pale-blue);
+  width: 80%;
+  margin: auto;
+  border-radius: var(--radius2);
+  padding: 0.6em;
+}
+
+.plan p:first-of-type {
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.plan p:nth-of-type(2) {
+  color: var(--desaturated-blue);
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  line-height: 25px;
+  justify-content: space-between;
+}
+
+.music {
+  width: 50px;
+  margin: 0.5em;
+}
+
+.plan a {
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.plan a:hover {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.buttons {
+  margin-top: 1em;
+}
+
+button {
+  border-color: transparent;
+  font-weight: 700;
+  border-radius: var(--radius2);
+  width: 80%;
+  height: 3.5em;
+  font-size: 1em;
+}
+
+#ok {
+  background-color: var(--bright-blue);
+  color: white;
+}
+
+#ok:hover {
+  opacity: 0.75;
+}
+
+#cancel {
+  background-color: transparent;
+  color: var(--desaturated-blue);
+  margin-top: 1.3em;
+}
+
+#cancel:hover {
+  color: var(--dark-blue);
+}
+
+@media (max-width:375px) {
+
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+  }
+
+  .container {
+    max-width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+  }
+
+}
