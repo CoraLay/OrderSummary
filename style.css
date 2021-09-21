@@ -64,15 +64,18 @@ body {
   font-size: 1em;
   font-weight: 500;
   color: var(--desaturated-blue);
-  margin-bottom: 2.5em;
+  margin-bottom: 1.3em;
 }
 
 .plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--very-pale-blue);
   width: 80%;
   margin: auto;
   border-radius: var(--radius2);
-  padding: 0.4em;
+  padding: 1em;
 }
 
 .plan p:first-of-type {
@@ -99,7 +102,6 @@ body {
 .plan a {
   font-weight: 700;
   line-height: 50px;
-  color: rgb(2, 113, 216);
 }
 
 .plan a:hover {
@@ -116,7 +118,7 @@ button {
   font-weight: 700;
   border-radius: var(--radius2);
   width: 80%;
-  height: 4em;
+  height: 3em;
   font-size: 1em;
 }
 
