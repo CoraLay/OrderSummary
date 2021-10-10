@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [frontendmentor.io/solutions/second-attempt-html-css-flexbox-mkgMeA3pF](https://www.frontendmentor.io/solutions/second-attempt-html-css-flexbox-mkgMeA3pF)
+- Live Site URL: [coralay.github.io/FrontEndMentor1](https://coralay.github.io/FrontEndMentor1/)
 
 
 ### Built with
@@ -53,6 +53,6 @@ I will continue studying about CSS and even HTML to improve my skills.
 
 ### Author
 
-- LinkedIn - [Add your name here](https://www.linkedin.com/in/laylacoralina/)
+- LinkedIn - [Layla Coralina](https://www.linkedin.com/in/laylacoralina/)
 - Frontend Mentor - [@CoraLay](https://www.frontendmentor.io/profile/coralay)
 
