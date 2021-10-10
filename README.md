@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [frontendmentor.io/solutions/second-attempt-html-css-flexbox-mkgMeA3pF](https://www.frontendmentor.io/solutions/second-attempt-html-css-flexbox-mkgMeA3pF)
-- Live Site URL: [coralay.github.io/FrontEndMentor1](https://coralay.github.io/OrderSummary/)
+- Live Site URL: [coralay.github.io/OrderSummary](https://coralay.github.io/OrderSummary/)
 
 
 ### Built with
