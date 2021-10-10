@@ -40,7 +40,7 @@ body {
   height: 700px;
   border-radius: var(--radius);
   text-align: center;
-  box-shadow: 15px 15px 20px hsla(223, 47%, 23%, 0.185);
+  box-shadow: 0 15px 20px rgba(97, 114, 161, 0.192);
 }
 
 .card-g img {
@@ -90,13 +90,14 @@ body {
 .price {
   display: flex;
   flex-direction: row;
+  align-items: center;
   line-height: 25px;
   justify-content: space-between;
   font-size: 1em;
 }
 
 .plan a {
-  font-size: 1.08em;
+  font-size: 0.8em;
 }
 
 .music {
@@ -115,7 +116,7 @@ body {
 }
 
 .buttons {
-  margin-top: 1.1em;
+  margin-top: 2.3em;
 }
 
 button {
