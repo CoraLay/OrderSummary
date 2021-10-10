@@ -40,7 +40,7 @@ body {
   height: 700px;
   border-radius: var(--radius);
   text-align: center;
-  box-shadow: 15px 15px 20px rgba(55, 58, 228, 0.116);
+  box-shadow: 15px 15px 20px hsla(223, 47%, 23%, 0.185);
 }
 
 .card-g img {
@@ -130,7 +130,7 @@ button {
 #ok {
   background-color: var(--bright-blue);
   color: white;
-  box-shadow: 2px 15px 17px rgba(81, 139, 216, 0.349);
+  box-shadow: 15px 15px 17px rgba(81, 139, 216, 0.767);
 }
 
 #ok:hover {
