@@ -92,7 +92,11 @@ body {
   flex-direction: row;
   line-height: 25px;
   justify-content: space-between;
-  align-items: center;
+  font-size: 1em;
+}
+
+.plan a {
+  font-size: 1.08em;
 }
 
 .music {
@@ -111,7 +115,7 @@ body {
 }
 
 .buttons {
-  margin-top: 2.5em;
+  margin-top: 1.1em;
 }
 
 button {
