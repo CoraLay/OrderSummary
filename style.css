@@ -131,7 +131,7 @@ button {
 #ok {
   background-color: var(--bright-blue);
   color: white;
-  box-shadow: 15px 15px 17px rgba(81, 139, 216, 0.767);
+  box-shadow: 0 15px 20px rgba(97, 114, 161, 0.404);
 }
 
 #ok:hover {
