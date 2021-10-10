@@ -92,6 +92,7 @@ body {
   flex-direction: row;
   line-height: 25px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .music {
@@ -110,7 +111,7 @@ body {
 }
 
 .buttons {
-  margin-top: 1em;
+  margin-top: 2.5em;
 }
 
 button {
@@ -125,7 +126,7 @@ button {
 #ok {
   background-color: var(--bright-blue);
   color: white;
-  box-shadow: 2px 15px 17px rgba(79, 116, 194, 0.349);
+  box-shadow: 2px 15px 17px rgba(81, 139, 216, 0.349);
 }
 
 #ok:hover {
